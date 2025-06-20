@@ -14,15 +14,13 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Tim Dacalos
       </h1>
-      <p className="mb-4">
-        {`
-        Hey everyone, my name is Tim. I'm a fourth year Computer Science 
-        student at the University of California: Irvine specializing in 
-        systems and software. After years of rigorous academic work, 
-        I am looking for summer internships.`}
-      </p>
-      <p>{`Outside of the computer, 
-        I enjoy endulging in J-RPGs and discussing about the newest anime.`}</p>
+    <p className="mb-4">
+      {`Hey everyone, my name is Tim. I'm a fourth-year Computer Science student at the University of California: Irvine, specializing in Systems and Software. I'm passionate about understanding how technology works at its core—from the hardware/software interface to building robust, high-performance systems.`}
+    </p>
+    <p className="mb-4">
+  {`I initially gravitated towards coding to help others, and my journey has led me to explore low-level programming, operating systems, and parallel computing. I'm actively seeking summer internships to apply and expand these skills.`}
+    </p>
+    <p>{`Outside of the computer, you'll find me indulging in J-RPGs and discussing the newest anime.`}</p>
       <div className="my-8">
         <BlogPosts />
       </div>
