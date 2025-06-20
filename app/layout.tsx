@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     template: '%s | Next.js Portfolio Starter',
   },
   description: 'tim\'s portfolio.',
+  icons: {
+    icon: '/Logo.svg',
+  },
   openGraph: {
     title: 'tim dacalos',
     description: 'tim\'s portfolio',

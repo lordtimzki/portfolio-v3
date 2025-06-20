@@ -1,8 +1,16 @@
 import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image'
 
 export default function Page() {
   return (
     <section>
+      <Image
+        src="/icon.png"
+        alt="Profile Picture"
+        width={125}
+        height={125}
+        className='mb-1'
+      />
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         Tim Dacalos
       </h1>
@@ -14,7 +22,7 @@ export default function Page() {
         I am looking for summer internships.`}
       </p>
       <p>{`Outside of the computer, 
-        I enjoy endulging in J-RPGs and discussing about anime.`}</p>
+        I enjoy endulging in J-RPGs and discussing about the newest anime.`}</p>
       <div className="my-8">
         <BlogPosts />
       </div>
