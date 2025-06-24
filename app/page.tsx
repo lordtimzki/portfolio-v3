@@ -1,6 +1,6 @@
 import { BlogPosts } from 'app/components/posts'
 import Image from 'next/image'
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "app/components/ui/badge"
 
 
 export default function Page() {
