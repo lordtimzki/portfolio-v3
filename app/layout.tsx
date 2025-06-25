@@ -13,7 +13,7 @@ import { ThemeProvider } from "next-themes"
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'tim dacalos',
+    default: 'tim dacalos | portfolio',
     template: '%s | Next.js Portfolio Starter',
   },
   description: 'tim\'s portfolio.',
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     icon: '/Logo.svg',
   },
   openGraph: {
-    title: 'tim dacalos',
+    title: 'portfolio',
     description: 'tim\'s portfolio',
     url: baseUrl,
-    siteName: 'tim dacalos',
+    siteName: 'timdac.dev',
     locale: 'en_US',
     type: 'website',
   },
