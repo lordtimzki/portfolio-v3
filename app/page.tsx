@@ -1,6 +1,7 @@
 import { BlogPosts } from 'app/components/posts'
 import Image from 'next/image'
 import { Skills } from './components/skills'
+import { Projects } from './components/projects'
 
 
 export default function Page() {
@@ -11,6 +12,7 @@ export default function Page() {
         alt="Profile Picture"
         width={125}
         height={125}
+        quality={100}
         className='mb-1'
       />
       <h1 className="mb-5 text-2xl font-semibold tracking-tighter">
@@ -36,6 +38,7 @@ export default function Page() {
           alt="Profile Picture"
           width={60}
           height={60}
+          quality={100}
           className='mb-1 h-[60px] w-[60px] object-contain'
         />
         <div>
@@ -55,11 +58,17 @@ export default function Page() {
         <Skills/>
       </div>
     <h2 className="mb-3 text-xl font-semibold tracking-tighter">
-        Recent Blog Posts
+        Projects
+    </h2>
+      <div className="mb-8">
+        <Projects/>
+      </div>
+    {/*<h2 className="mb-3 text-xl font-semibold tracking-tighter">
+        Blog Posts
     </h2>
       <div className="mb-4">
         <BlogPosts />
-      </div>
+      </div>*/}
     </section>
   )
 }

@@ -5,9 +5,6 @@ const navItems = {
   '/': {
     name: 'home',
   },
-  '/projects': {
-    name: 'projects',
-  },
   '/blog': {
     name: 'blog',
   },
@@ -32,6 +29,8 @@ export function Navbar() {
                   key={path}
                   href={path}
                   className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
+                  target={path.startsWith('http') ? '_blank' : undefined}
+                  rel={path.startsWith('http') ? 'noopener noreferrer' : undefined}
                 >
                   {name}
                 </Link>
