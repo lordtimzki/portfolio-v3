@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'tim dacalos | portfolio',
-    template: '%s | Next.js Portfolio Starter',
+    template: '%s | timdac',
   },
   description: 'tim\'s portfolio.',
   icons: {
