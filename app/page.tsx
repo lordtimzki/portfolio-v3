@@ -63,12 +63,12 @@ export default function Page() {
       <div className="mb-8">
         <Projects/>
       </div>
-    {/*<h2 className="mb-3 text-xl font-semibold tracking-tighter">
+    /*<h2 className="mb-3 text-xl font-semibold tracking-tighter">
         Blog Posts
     </h2>
       <div className="mb-4">
         <BlogPosts />
-      </div>*/}
+      </div>*/
     </section>
   )
 }
