@@ -22,7 +22,7 @@ export default function Page() {
         About
     </h2>
     <p className="mb-4">
-      {`Hey everyone, my name is Tim. I'm a fourth-year Computer Science student at the University of California: Irvine, specializing in Systems and Software. I'm passionate about understanding how technology works at its core—from the hardware/software interface to building robust, high-performance systems.`}
+      {`Hey everyone, my name is Tim. I'm a fourth-year Computer Science student at the University of California: Irvine, specializing in Systems and Software. I'm passionate about turning ideas into functional and elegant applications and understanding how technology works at its core.`}
     </p>
     <p className="mb-4">
       {`I initially gravitated towards coding to help others, and my journey has led me to explore operating systems and web development. I'm actively seeking summer internships to apply and expand these skills.`}
