@@ -36,10 +36,10 @@ export function Navbar() {
                 </Link>
               )
             })}
-          </div>
-          <div className="ml-auto">
+          </div> 
+          {/*<div className="ml-auto">
             <ModeToggle />
-          </div>
+          </div>*/}
         </nav>
       </div>
     </aside>
