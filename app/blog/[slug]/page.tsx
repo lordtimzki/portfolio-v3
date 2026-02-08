@@ -51,7 +51,8 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default function Blog({ params }) {
+export default async function Blog(props: { params: Promise<{slug: string}> }) {
+  const params = await props.params;
   let post = getBlogPosts().find((post) => post.slug === params.slug)
 
   if (!post) {
