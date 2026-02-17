@@ -122,31 +122,6 @@ export function Projects(){
                 </div>
             </CardContent>
         </Card>
-        <Card>
-            <CardHeader>
-                <CardTitle>Minesweeper AI</CardTitle>
-                <CardDescription>
-                    <div className="flex flex-wrap gap-2 mb-2">
-                    <Badge variant={'secondary'}>Python</Badge>
-                    <Badge variant={'secondary'}>AI</Badge>
-                    </div>
-                    With a team of 3, our group competed in a class wide tournament where we created
-                    our own AI to beat Minesweeper. Our AI managed to beat boards with a 66% win rate.
-                    Our AI used advanced-constraint propagation and increased scores by 37% for 16x16 boards.
-                </CardDescription>
-            </CardHeader>
-            <CardContent>
-                <div className="relative aspect-video w-full mb-1">
-                    <Image 
-                        src="/MinesweeperAI.png"
-                        alt="Minesweeper Project"
-                        fill
-                        quality={100}
-                        className="object-cover" 
-                    />
-                </div>
-            </CardContent>
-        </Card>
         </>
     )
 }
