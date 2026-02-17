@@ -51,7 +51,7 @@ export function Projects(){
                     </div>
                     ShazAnime is a website that allows users to find visuals of anime openings or endings just like Shazam.
                 </CardDescription>
-                    <CardAction><a href="shazanime.vercel.app" target="_blank">↗</a></CardAction>
+                    <CardAction><a href="https://shazanime.vercel.app" target="_blank">↗</a></CardAction>
             </CardHeader>
             <CardContent>
                 <div className="relative aspect-video w-full mb-1">
