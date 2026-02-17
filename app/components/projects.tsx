@@ -14,6 +14,32 @@ export function Projects(){
         <>
         <Card className="mb-4">
             <CardHeader>
+                <CardTitle>NextGenPicks</CardTitle>
+                <CardDescription>
+                    <div className="flex flex-wrap gap-2 mb-2">
+                    <Badge variant={'secondary'}>Swift</Badge>
+                    <Badge variant={'secondary'}>Python</Badge>
+                    <Badge variant={'secondary'}>Firebase</Badge>
+                    </div>
+                    NextGenPicks is a mobile app that allows users to quickly find the best NBA Props for the day
+                    without having to scour the internet for the best bets.
+                </CardDescription>
+                    <CardAction><a href="https://github.com/lordtimzki/nextgenpicks" target="_blank">↗</a></CardAction>
+            </CardHeader>
+            <CardContent>
+                <div className="relative aspect-video w-full mb-1">
+                    <Image 
+                        src="/NextGenPicks.png"
+                        alt="NextGenPicks Project"
+                        fill
+                        quality={100}
+                        className="object-cover" 
+                    />
+                </div>
+            </CardContent>
+        </Card>     
+        <Card className="mb-4">
+            <CardHeader>
                 <CardTitle>Seiyuu Hub</CardTitle>
                 <CardDescription>
                     <div className="flex flex-wrap gap-2 mb-2">
