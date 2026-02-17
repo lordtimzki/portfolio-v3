@@ -6,6 +6,7 @@ export function Skills(){
         <Badge variant="secondary">C++</Badge>
         <Badge variant="secondary">Python</Badge>
         <Badge variant="secondary">Java</Badge>
+        <Badge variant="secondary">Swift</Badge>
         <Badge variant="secondary">JavaScript</Badge>
         <Badge variant="secondary">React</Badge>
         <Badge variant="secondary">Angular</Badge>
