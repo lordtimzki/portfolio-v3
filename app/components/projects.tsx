@@ -37,7 +37,34 @@ export function Projects(){
                     />
                 </div>
             </CardContent>
-        </Card>     
+        </Card>   
+        <Card className="mb-4">
+            <CardHeader>
+                <CardTitle>ShazAnime</CardTitle>
+                <CardDescription>
+                    <div className="flex flex-wrap gap-2 mb-2">
+                    <Badge variant={'secondary'}>React</Badge>
+                    <Badge variant={'secondary'}>JavaScript</Badge>
+                    <Badge variant={'secondary'}>Python</Badge>
+                    <Badge variant={'secondary'}>Render</Badge>
+                    <Badge variant={'secondary'}>Tailwind CSS</Badge>
+                    </div>
+                    ShazAnime is a website that allows users to find visuals of anime openings or endings just like Shazam.
+                </CardDescription>
+                    <CardAction><a href="shazanime.vercel.app" target="_blank">↗</a></CardAction>
+            </CardHeader>
+            <CardContent>
+                <div className="relative aspect-video w-full mb-1">
+                    <Image 
+                        src="/ShazAnime.png"
+                        alt="ShazAnime Project"
+                        fill
+                        quality={100}
+                        className="object-cover" 
+                    />
+                </div>
+            </CardContent>
+        </Card>  
         <Card className="mb-4">
             <CardHeader>
                 <CardTitle>Seiyuu Hub</CardTitle>
