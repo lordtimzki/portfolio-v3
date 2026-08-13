@@ -48,7 +48,7 @@ export default function Page() {
         </div>
       </div>
       <div>
-        <p className='text-s'>Sep 2022 – Present</p>
+        <p className='text-s'>Sep 2022 – Jun 2026</p>
       </div>
     </div>
     <h2 className="mb-3 text-xl font-semibold tracking-tighter">
