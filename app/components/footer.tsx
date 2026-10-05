@@ -1,3 +1,5 @@
+import { EmailLink } from './email'
+
 function ArrowIcon() {
   return (
     <svg
@@ -40,6 +42,12 @@ export default function Footer() {
             <ArrowIcon />
             <p className="ml-2 h-7">github</p>
           </a>
+        </li>
+        <li>
+          <EmailLink className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100">
+            <ArrowIcon />
+            <p className="ml-2 h-7">email</p>
+          </EmailLink>
         </li>
       </ul>
       {/*<p className="mt-8 text-neutral-600 dark:text-neutral-300">

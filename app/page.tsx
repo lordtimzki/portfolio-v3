@@ -22,7 +22,7 @@ export default function Page() {
         About
     </h2>
     <p className="mb-4">
-      {`Hey everyone, my name is Tim. I graduated at the University of California: Irvine in Computer Science, specializing in Systems and Software. I'm passionate about turning ideas into functional and elegant applications and understanding how technology works at its core.`}
+      {`Hey everyone, my name is Tim. I graduated from the University of California: Irvine in Computer Science, specializing in Systems and Software. I'm passionate about turning ideas into functional and elegant applications and understanding how technology works at its core.`}
     </p>
     <p className="mb-4">
       {`I initially gravitated towards coding to help others, and my journey has led me to explore operating systems and web development. I'm actively seeking new-grad positions to apply and expand these skills.`}
@@ -35,7 +35,7 @@ export default function Page() {
       <div className="flex gap-x-4">
         <Image
           src="/uci.png"
-          alt="Profile Picture"
+          alt="UCI logo"
           width={60}
           height={60}
           quality={100}
@@ -50,6 +50,35 @@ export default function Page() {
       <div>
         <p className='text-s'>Sep 2022 – Jun 2026</p>
       </div>
+    </div>
+    <h2 className="mb-3 text-xl font-semibold tracking-tighter">
+        Experience
+    </h2>
+    <div className="mb-8">
+      <div className="mb-2 flex gap-x-4 items-start justify-between">
+        <div className="flex gap-x-4">
+          <Image
+            src="/uci.png"
+            alt="UCI logo"
+            width={60}
+            height={60}
+            quality={100}
+            className='mb-1 h-[60px] w-[60px] object-contain'
+          />
+          <div>
+            <b className='primary'>Learning Assistant</b>
+            <br/>
+            <p className='secondary'>Donald Bren School of ICS</p>
+          </div>
+        </div>
+        <div>
+          <p className='text-s'>Sep 2025 – Jun 2026</p>
+        </div>
+      </div>
+      <ul className="list-disc pl-5 space-y-1">
+        <li>Facilitated lab sections for 120+ students across 3 quarters, running 1-on-1 code reviews to diagnose syntax errors, indexing bugs, and logic issues in Python.</li>
+        <li>Relayed instructional objectives and assignment clarifications from the lead TA, providing starter code examples and walkthroughs to reinforce introductory concepts like lists and loops.</li>
+      </ul>
     </div>
     <h2 className="mb-3 text-xl font-semibold tracking-tighter">
         Technologies

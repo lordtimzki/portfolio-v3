@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     default: 'tim dacalos | portfolio',
     template: '%s | timdac',
   },
-  description: 'tim\'s portfolio.',
+  description: 'tim\'s portfolio. Tim Dacalos, software engineer and UC Irvine Computer Science graduate.',
   icons: {
     icon: '/Logo.svg',
   },
   openGraph: {
-    title: 'portfolio',
-    description: 'tim\'s portfolio',
+    title: 'tim dacalos | portfolio',
+    description: 'tim\'s portfolio. Tim Dacalos, software engineer and UC Irvine Computer Science graduate.',
     url: baseUrl,
     siteName: 'timdac.dev',
     locale: 'en_US',
