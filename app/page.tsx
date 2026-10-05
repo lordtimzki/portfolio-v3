@@ -13,7 +13,7 @@ export default function Page() {
         width={125}
         height={125}
         quality={100}
-        className='mb-1'
+        className='mb-4'
       />
       <h1 className="mb-5 text-2xl font-semibold tracking-tighter">
         Tim Dacalos
